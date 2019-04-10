@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace C0731909_C0726115
+namespace C0707193
 {
     public delegate void Sort_DataStructure();
     class Program
@@ -75,7 +75,7 @@ namespace C0731909_C0726115
 
             try
             {
-                using (StreamReader sr = new StreamReader("U:/Users/731909/C0731909-C0726115/names.txt"))
+                using (StreamReader sr = new StreamReader("U:/Users/707193/names.txt"))
                 {
                     string line;
                     while ((line = sr.ReadLine()) != null)
